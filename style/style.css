@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+input,
+button,
+textarea,
+select {
+  font-family: "Roboto", sans-serif;
+}
+
+.conteiner {
+  max-width: 1225px;
+  padding: 0 59px 0;
+  margin: 0 auto;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.block {
+  border-radius: 8px;
+  padding: 24px 32px 40px;
+}
+.block--first {
+  background-color: #fff6d5;
+}
+.grid__item {
+  position: relative;
+  margin: 49px 0 48px;
+  width: calc(25% - 32px);
+  min-width: 240px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.block-icon {
+  position: absolute;
+  top: -24px;
+  left: 32px;
+}
+.icon {
+  width: 64px;
+  width: 64px;
+}
+.icon-img {
+  width: 52px;
+  height: 52px;
+}
+.block__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.block__description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #746e8c;
+}
