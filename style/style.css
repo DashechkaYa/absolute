@@ -44,6 +44,18 @@ select {
   background-color: #fff6d5;
 }
 
+.block--second {
+  background-color: #EBDCF9;
+}
+
+.block--third {
+  background-color: #DDF5FD;
+}
+
+.block--forth {
+  background-color: #DCF6E8;
+}
+
 .block__icon {
   position: absolute;
   top: -24px;
